@@ -37,17 +37,25 @@ Update Auth0ProviderWithNavigate.tsx to use these env values.
 4. Run the Development Server
 
 npm run dev
+
 📁 Project Structure
 
 src/
 │
 ├── components/         # Reusable components like TaskForm, TaskDetails, etc.
+
 ├── context/            # Global state management (TaskProvider, useTasks)
+
 ├── pages/              # Route pages (Dashboard, CreateTask, EditTask)
+
 ├── auth/               # Auth0 integration (Provider, Login/Logout buttons)
+
 ├── types/              # TypeScript type definitions (Task type)
+
 ├── App.tsx             # Main app component with routes
+
 ├── main.tsx            # Entry point
+
 └── index.css           # Global styles
 
 🛡 Auth0 Integration
