@@ -21,9 +21,11 @@ A Task Management App built with **TypeScript**, **React**, and **Auth0** for au
 `bash
 git clone https://github.com/YOUR_USERNAME/task-management-app.git
 cd task-management-app
+
 2. Install Dependencies
 
 npm install
+
 3. Configure Auth0
 Create a .env file in the root with your Auth0 details:
 
